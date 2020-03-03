@@ -1,0 +1,8 @@
+{
+    "version" : "1",
+    "nombre" : "Traductor Gnäbere",
+    "servidor" : "http://localhost/",
+    "img" : {
+        "general" : "http://localhost/demo/imagenes/"
+    }
+}
