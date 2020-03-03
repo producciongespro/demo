@@ -4,5 +4,8 @@
     "servidor" : "http://localhost/",
     "img" : {
         "general" : "http://localhost/demo/imagenes/"
+    },
+    "mp3" : {
+        "general" : "http://localhost/demo/audios/"
     }
 }

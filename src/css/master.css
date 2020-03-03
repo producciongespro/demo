@@ -70,3 +70,15 @@
       cursor: pointer;
       padding-left: 4rem;
   }
+
+  .textos_gnabere{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 4vh;
+  }
+
+  .textos_espanol{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3vh;
+  }

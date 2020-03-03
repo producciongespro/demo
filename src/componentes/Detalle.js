@@ -1,7 +1,8 @@
 import React from 'react';
 import assets from '../data/config.json';
-
+import sonidos from '../data/config.json';
 const imgGenerales = assets.img.general;
+const audios = sonidos.mp3.general;
 
 function Detalle(props) {
 
@@ -21,12 +22,12 @@ function Detalle(props) {
                         <span className="">
                              {props.info.t_gnabere}
                             </span> </div>
-                        <p>
+                        <p className="textos_gnabere">
                             {
                                 props.info.texto_gnabere
                             }
                         </p>
-                        <p>
+                        <p className="textos_espanol">
                             {
                                 props.info.texto_espanol
                                 
@@ -50,6 +51,8 @@ function Detalle(props) {
                         </div>
                         <div className="col-6">
                             <img id="" src={imgGenerales + props.info.url_imagen}  alt="Gallo" />
+                            <br/><audio src={audios + props.info.url_audio} controls="controls" type="audio/mpeg" preload="preload">
+</audio>
                         </div>
                     </React.Fragment>
                 )
